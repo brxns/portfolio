@@ -1,0 +1,61 @@
+:root {
+  --main-color: #778554;
+  --accent-color: #949e7b;
+  --border: 3px solid;
+}
+
+.main h1 {
+  color: var(--main-color);
+  font-size: 52px;
+  font-family: "Monoton", cursive;
+}
+.main h3 {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+}
+.more-info {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+.more-info a {
+  padding: 15px;
+  margin: 30px;
+  border: var(--border) var(--main-color);
+  border-radius: 60px;
+  text-decoration: none;
+  color: var(--main-color);
+}
+a:hover {
+  transition: ease-in-out 200ms;
+  color: white;
+  background-color: var(--main-color);
+  font: 30px;
+}
+
+/*About me page */
+
+h1 {
+  color: var(--main-color);
+  font-size: 52px;
+  font-family: "Open Sans", sans-serif;
+}
+.main-about h1,
+p {
+  text-align: center;
+}
+.home-button {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 30px;
+  border: var(--border) var(--main-color);
+  border-radius: 60px;
+  text-decoration: none;
+  color: var(--main-color);
+}
