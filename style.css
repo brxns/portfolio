@@ -1,16 +1,16 @@
 :root {
   --main-color: #778554;
   --accent-color: #949e7b;
-  --border: 3px solid;
+  --border: 2px solid;
 }
 
 .main h1 {
   color: var(--main-color);
   font-size: 52px;
-  font-family: "Monoton", cursive;
+  font-family: "Playfair Display SC", serif;
 }
 .main h3 {
-  font-size: 26px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
 }
@@ -24,18 +24,19 @@
   font-family: "Open Sans", sans-serif;
 }
 .more-info a {
-  padding: 15px;
-  margin: 30px;
+  font-size: 15px;
+  padding: 7px;
+  margin: 20px;
   border: var(--border) var(--main-color);
-  border-radius: 60px;
+  border-radius: 4px;
   text-decoration: none;
   color: var(--main-color);
 }
-a:hover {
+.about:hover,
+.projects:hover {
   transition: ease-in-out 200ms;
   color: white;
   background-color: var(--main-color);
-  font: 30px;
 }
 
 /*About me page */
@@ -43,19 +44,25 @@ a:hover {
 h1 {
   color: var(--main-color);
   font-size: 52px;
-  font-family: "Open Sans", sans-serif;
-}
-.main-about h1,
-p {
+  font-family: "Playfair Display SC", serif;
   text-align: center;
 }
-.home-button {
+
+.home-button,
+.contact {
   display: flex;
   justify-content: center;
-  padding: 15px;
-  margin: 30px;
+  padding: 10px;
+  margin: 15px;
   border: var(--border) var(--main-color);
   border-radius: 60px;
   text-decoration: none;
   color: var(--main-color);
+}
+.home-button:hover,
+.contact:hover {
+  transition: ease-in-out 200ms;
+  color: white;
+  background-color: var(--main-color);
+  font: 30px;
 }
