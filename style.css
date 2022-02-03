@@ -10,9 +10,8 @@
   font-family: "Playfair Display SC", serif;
 }
 .main h3 {
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: normal;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
 }
 .intro {
   display: flex;
@@ -21,7 +20,7 @@
 .more-info {
   display: flex;
   justify-content: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .more-info a {
   font-size: 15px;
@@ -32,7 +31,7 @@
   text-decoration: none;
   color: var(--main-color);
 }
-.about:hover,
+.about-page:hover,
 .projects:hover {
   transition: ease-in-out 200ms;
   color: white;
@@ -41,26 +40,27 @@
 
 /*About me page */
 
-h1 {
+.about-title {
   color: var(--main-color);
-  font-size: 52px;
+  font-size: 45px;
   font-family: "Playfair Display SC", serif;
   text-align: center;
+  margin-bottom: 20px;
 }
-
-.home-button,
-.contact {
-  display: flex;
-  justify-content: center;
+.info {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+.button {
   padding: 10px;
   margin: 15px;
   border: var(--border) var(--main-color);
-  border-radius: 60px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: var(--main-color);
 }
-.home-button:hover,
-.contact:hover {
+.button:hover {
   transition: ease-in-out 200ms;
   color: white;
   background-color: var(--main-color);
