@@ -1,28 +1,32 @@
 :root {
-  --main-color: #778554;
+  --main-color:#9443e0;
   --accent-color: #949e7b;
   --border: 2px solid;
 }
 
-.main h1 {
+h1 {
   color: var(--main-color);
-  font-size: 52px;
-  font-family: "Playfair Display SC", serif;
-}
-.main h3 {
-  font-size: 17px;
-  font-family: "Montserrat", sans-serif;
-}
-.intro {
+  font-size: 50px;
+ font-family: 'Noto Serif Display', serif;
+  text-align: center;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
+
 }
+h3 {
+  font-size: 17px;
+  font-family: 'Noto Serif Display', serif;
+  text-align: center;
+  font-size: 35px;
+}
+
 .more-info {
   display: flex;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-.more-info a {
+.button {
   font-size: 15px;
   padding: 7px;
   margin: 20px;
@@ -30,39 +34,19 @@
   border-radius: 4px;
   text-decoration: none;
   color: var(--main-color);
+  font-family: 'Noto Serif Display', serif;
 }
-.about-page:hover,
-.projects:hover {
+.button:hover {
   transition: ease-in-out 200ms;
   color: white;
   background-color: var(--main-color);
 }
 
 /*About me page */
-
-.about-title {
-  color: var(--main-color);
-  font-size: 45px;
-  font-family: "Playfair Display SC", serif;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.info {
+.info /*any text that is not a heading*/{
   font-size: 17px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
-.button {
-  padding: 10px;
-  margin: 15px;
-  border: var(--border) var(--main-color);
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  color: var(--main-color);
-}
-.button:hover {
-  transition: ease-in-out 200ms;
-  color: white;
-  background-color: var(--main-color);
-  font: 30px;
-}
+
+/* Projects page*/
+
