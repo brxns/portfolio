@@ -1,52 +1,58 @@
 :root {
-  --main-color:#9443e0;
-  --accent-color: #949e7b;
+  --main-color: #9443e0;
+  --accent-color: #f3f0f7;
   --border: 2px solid;
 }
-
-h1 {
-  color: var(--main-color);
-  font-size: 50px;
- font-family: 'Noto Serif Display', serif;
-  text-align: center;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-
+.hero {
+  padding: 150px;
+  background-color: var(--accent-color);
 }
+
+h1,
 h3 {
-  font-size: 17px;
-  font-family: 'Noto Serif Display', serif;
+  font-family: "Noto Serif Display", serif;
   text-align: center;
-  font-size: 35px;
 }
-
+.name {
+  color: var(--main-color);
+  font-size: 90px;
+}
+.description {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
 .more-info {
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
 }
 .button {
-  font-size: 15px;
-  padding: 7px;
+  font-size: 14px;
+  padding: 12px 20px;
   margin: 20px;
   border: var(--border) var(--main-color);
   border-radius: 4px;
   text-decoration: none;
   color: var(--main-color);
-  font-family: 'Noto Serif Display', serif;
 }
 .button:hover {
   transition: ease-in-out 200ms;
   color: white;
   background-color: var(--main-color);
 }
+.about-me{
+  background-color: var(--accent-color)
+}
+.about-title, .project-title {
+  color: var(--main-color);
+  font-size: 60px;
+  padding: 60px;
 
-/*About me page */
-.info /*any text that is not a heading*/{
+}
+.info /*any text that is not a heading*/ {
   font-size: 17px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Source Serif Pro", serif;
 }
 
 /* Projects page*/
-
