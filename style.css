@@ -54,5 +54,13 @@ h3 {
   font-size: 17px;
   font-family: "Source Serif Pro", serif;
 }
-
-/* Projects page*/
+.app-button{
+  border-radius: 4px;
+  border: none;
+  background-color: var(--accent-color);
+  margin-top: 60px;
+}
+.app-button:hover{
+  background-color: white;
+  border: var(--accent-color) 3px dotted;
+}
