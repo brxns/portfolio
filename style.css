@@ -58,6 +58,8 @@ h3 {
 .info /*any text that is not a heading*/ {
   font-size: 17px;
   font-family: "Source Serif Pro", serif;
+  justify-content: space-evenly;
+  text-align: justify;
 }
 .app-button{
   border-radius: 4px;
