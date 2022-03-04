@@ -4,7 +4,7 @@
   --accent-color: #191919;
   --border: 2px solid #B3541E;
 }
-.hero {
+.hero, .about-me {
   background-color: var(--accent-color);
    position: absolute;
    top: 0;
@@ -12,15 +12,21 @@
    bottom: 0;
    left: 0;
 }
-
+/*page and project titles*/
 h1,
 h3 {
   font-family: "Noto Serif Display", serif;
   text-align: center;
   color: var(--main-color);
+  padding  : 15px;
 }
+
 .name {
   font-size: 90px;
+}
+.page-title {
+  color: var(--main-color);
+  font-size: 60px;
 }
 .description {
   font-size: 20px;
@@ -49,46 +55,35 @@ h3 {
   color: white;
   background-color: var(--main-color);
 }
-.about-me{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   background-color: var(--accent-color);
-}
-.project-container{
-  background-color: var(--accent-color);
-}
-.about-title, .project-title {
-  color: var(--main-color);
-  font-size: 60px;
-  padding  : 15px;
-}
-.project-pic{
-  border-radius: 15px;
-}
-.project-container{
-  padding: 40px;
-}
 
-.info /*any text that is not a heading*/ {
-  font-size: 20px;
-  font-family: "Source Serif Pro", serif;
-  justify-content: space-evenly;
-  text-align: justify;
-  color: #C4B6B6;
-}
 .app-button{
   border-radius: 4px;
   border: none;
   background-color: var(--main-color);
-  margin-top: 60px;
+  margin-bottom: 10px;
   padding: 10px 15px;
   color: var(--accent-color);
-  font-size: 13px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
 .app-button:hover{
   background-color: var(--secondary-color);
+  transition: ease-in-out 250ms;
+}
 
+.project-container{
+  background-color: var(--accent-color);
+  padding: 40px;
+}
+.project-pic{
+  border-radius: 15px;
+  border: dotted 1px #C4B6B6;
+}
+.info /*any text that is not a heading*/ {
+  font-size: 18px;
+  font-family: "Source Serif Pro", serif;
+  justify-content: space-evenly;
+  text-align: justify;
+  color: #C4B6B6;
 }
