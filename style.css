@@ -4,14 +4,17 @@
   --accent-color: #191919;
   --border: 2px solid #b3541e;
 }
-.hero {
+.home, .about, .project, .contact {
   background-color: var(--accent-color);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
+/*navbar*/
+.nav li, .nav li a{
+  color: #c4b6b6;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding: 10px 20px 0 40px;
+}
+
 /*page and project titles*/
 h1,
 h3 {
@@ -22,7 +25,9 @@ h3 {
 }
 
 .name {
-  font-size: 90px;
+  font-size: 120px;
+  margin: 90px 0;
+  text-align: center;
 }
 .page-title {
   color: var(--main-color);
@@ -42,7 +47,7 @@ h3 {
 .button {
   font-size: 14px;
   padding: 12px 20px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 4px;
   text-decoration: none;
   color: var(--main-color);
@@ -71,16 +76,14 @@ h3 {
   background-color: var(--secondary-color);
   transition: ease-in-out 250ms;
 }
-
-.project-container,
-.about-me {
-  background-color: var(--accent-color);
-  padding: 40px;
+.container {
+  padding: 40px  10px;
 }
 .project-pic {
   border-radius: 15px;
   border: dotted 1px #c4b6b6;
 }
+
 .info /*any text that is not a heading*/ {
   font-size: 18px;
   font-family: "Source Serif Pro", serif;
@@ -96,7 +99,6 @@ p {
   color: var(--main-color);
 }
 .socials:hover {
-
   text-decoration: none;
   color: var(--secondary-color);
 }
