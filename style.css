@@ -44,6 +44,18 @@ h3 {
   font-family: "Roboto", sans-serif;
   padding: 20px;
 }
+
+.email-link{
+  text-decoration: none;
+  color: #c4b6b6;
+  font-size: 15px;
+}
+.email-link:hover{
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 15px;
+}
+
 .button {
   font-size: 14px;
   padding: 12px 20px;
@@ -97,6 +109,7 @@ p {
 .socials {
   text-decoration: none;
   color: var(--main-color);
+  padding: 10px;
 }
 .socials:hover {
   text-decoration: none;
