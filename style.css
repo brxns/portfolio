@@ -14,7 +14,9 @@
   text-decoration: none;
   padding: 10px 20px 0 40px;
 }
-
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
 /*page and project titles*/
 h1,
 h3 {
